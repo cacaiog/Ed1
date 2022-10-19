@@ -51,16 +51,13 @@ public class QueueComQtd<T> {
     }
 
     public boolean isEmpty(){
-        if( this.primeiro == null){
-
-        }
-        return true;
+        
+        return this.primeiro == null;
     }
 
     public boolean isFull(){
-        if(this.qtd ==limite){
-        }
-        return true;
+       
+        return this.qtd == limite;
     }
 
     
